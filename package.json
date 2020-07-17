@@ -1,0 +1,32 @@
+{
+  "name": "bp-rollup",
+  "version": "1.0.0",
+  "description": "一个基于rollupjs简单打包配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build/build.js",
+    "lint": "eslint build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenPJJ/rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenPJJ/rollup/issues"
+  },
+  "homepage": "https://github.com/BenPJJ/rollup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.4.0",
+    "rollup": "^2.10.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "uglify-js": "^3.10.0"
+  }
+}
